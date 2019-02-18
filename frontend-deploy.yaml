@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: frontend
   labels:
-    app: guestbook
+    app: Aseembook
 spec:
   selector:
     matchLabels:
-      app: guestbook
+      app: Aseembook
       tier: frontend
   replicas: 3
   template:
     metadata:
       labels:
-        app: guestbook
+        app: Aseembook
         tier: frontend
     spec:
       containers:
